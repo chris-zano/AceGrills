@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ACE Grill</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+<header id="header" class="header">
+    <div class="container">
+        <div class="row">
+            <div class="four columns">
+                <img src="img/logo.jpg" id="logo">
+            </div> 
+            <div class="two columns u-pull-right">
+                <ul>
+                    <li class="submenu">
+                            <img src="img/cart.png" id="img-cart">
+                            <div id="shopping-cart">
+                                    <table id="cart-content" class="u-full-width">
+                                        <thead>
+                                            <tr>
+                                                <th>Image</th>
+                                                <th>Name</th>
+                                                <th>Price</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+
+                                    <a href="#" id="clear-cart" class="button u-full-width">Clear Cart</a>
+                            </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </header>
+
+
+    <div id="hero">
+        <div class="container">
+            <div class="row">
+                    <div class="six columns">
+                        <div class="hero-content">
+                                <h2>Place an Order Now</h2>
+                                <p>Special Offer- any order [ Ghc 25 ]</p>
+                                <form action="#" id="search" method="post" class="form">
+                                    <input class="u-full-width" type="text" placeholder="Find what you want" id="search-course">
+                                    <input type="submit" id="submit-search-course" class="submit-search-course">
+                                </form>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-bar">
+        <div class="container">
+            <div class="row">
+                    <div class="four columns icon icon1">
+                        <p>Dishes from over 25 countries <br>
+                        Drinks and cocktails from <br> 50+ countries</p>
+                    </div>
+                    <div class="four columns icon icon2">
+                        <p>Expert Chefs <br>
+                        Have your meal made for you <br> by one of the best</p>
+                    </div>
+                    <div class="four columns icon icon3">
+                        <p>24hr service 7 days a week
+                        </p>
+                    </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="courses-list" class="container">
+        <h1 id="heading" class="heading">Today's Special</h1>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/course1.jpg" class="course-image u-full-width">
+                    <div class="info-card">
+                        <h4>Grill chicken with fried rice and <br>a cocktail</h4>
+                        <p>Chima Brazy</p>
+                        <img src="img/stars.png">
+                        <p class="price">Ghc 50  <span class="u-pull-right ">Ghc 42</span></p>
+                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="1">Add to Cart</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/course2.jpg" class="course-image u-full-width">
+                        <div class="info-card">
+                            <h4>Grill Catfish <br>(with complimentary dish)</h4>
+                            <p>Don Chukzz</p>
+                            <img src="img/stars.png">
+                            <p class="price">Ghc 60  <span class="u-pull-right ">Ghc 57</span></p>
+                            <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="2">Add to Cart</a>
+                        </div>
+                    </div>
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/course3.jpg" class="course-image u-full-width">
+                        <div class="info-card">
+                            <h4>Banku with Tilapia</h4>
+                            <p>Juan Pedro</p>
+                            <img src="img/stars.png">
+                            <p class="price">Ghc 35  <span class="u-pull-right ">Ghc 28</span></p>
+                            <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="3">Add to Cart</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/course4.jpg" class="course-image u-full-width">
+                    <div class="info-card">
+                        <h4>Chicken and chips (small)</h4>
+                        <p>Grant</p>
+                        <img src="img/stars.png">
+                        <p class="price">Ghc 20  <span class="u-pull-right ">Ghc 14</span></p>
+                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="4">Add to Cart</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/course5.jpg" class="course-image u-full-width">
+                        <div class="info-card">
+                            <h4>Chicken and chips (medium)</h4>
+                            <p>Grant</p>
+                            <img src="img/stars.png">
+                            <p class="price">Ghc 30  <span class="u-pull-right ">Ghc 27</span></p>
+                            <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="5">Add to Cart</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/course1.jpg" class="course-image u-full-width">
+                        <div class="info-card">
+                            <h4>Chicken and chips (large)</h4>
+                            <p>Juan Pedro</p>
+                            <img src="img/stars.png">
+                            <p class="price">Ghc 45  <span class="u-pull-right ">Ghc 39</span></p>
+                            <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="6">Add to Cart</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/course2.jpg" class="course-image u-full-width">
+                    <div class="info-card">
+                        <h4>Mexican Indigenoush dish</h4>
+                        <p>Juan Pedro</p>
+                        <img src="img/stars.png">
+                        <p class="price">Ghc 120  <span class="u-pull-right ">Ghc 90</span></p>
+                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="7">Add to Cart</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/course3.jpg" class="course-image u-full-width">
+                        <div class="info-card">
+                            <h4>Jamaican Delicacy</h4>
+                            <p>Juan Pedro</p>
+                            <img src="img/stars.png">
+                            <p class="price">Ghc 85  <span class="u-pull-right ">Ghc 50</span></p>
+                            <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="8">Add to Cart</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/course4.jpg" class="course-image u-full-width">
+                        <div class="info-card">
+                            <h4>French cuisine</h4>
+                            <p>Juan Pedro</p>
+                            <img src="img/stars.png">
+                            <p class="price">Ghc 210  <span class="u-pull-right ">Ghc 150</span></p>
+                            <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="9">Add to Cart</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+        <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/course5.jpg" class="course-image u-full-width">
+                        <div class="info-card">
+                            <h4>Home cookies</h4>
+                            <p>Juan Pedro</p>
+                            <img src="img/stars.png">
+                            <p class="price">Ghc 20  <span class="u-pull-right ">Ghc 19</span></p>
+                            <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="10">Add to Cart</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="img/course1.jpg" class="course-image u-full-width">
+                            <div class="info-card">
+                                <h4>Italian cocktail</h4>
+                                <p>Juan Pedro</p>
+                                <img src="img/stars.png">
+                                <p class="price">Ghc 20  <span class="u-pull-right ">Ghc 18</span></p>
+                                <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="11">Add to Cart</a>
+                            </div>
+                        </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="img/course2.jpg" class="course-image u-full-width">
+                            <div class="info-card">
+                                <h4>Indian hot spicy meal</h4>
+                                <p>Juan Pedro</p>
+                                <img src="img/stars.png">
+                                <p class="price">Ghc 99  <span class="u-pull-right ">Ghc 74</span></p>
+                                <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="12">Add to Cart</a>
+                            </div>
+                        </div> <!--.card-->
+                </div>
+            </div> <!--.row-->
+    </div>
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+                    <div class="four columns">
+                            <nav id="primary" class="menu">
+                                <a class="link" href="#">For Business</a>
+                                <a class="link" href="#">Become a Chef</a>
+                                <a class="link" href="#">Mobile Applications</a>
+                                <a class="link" href="#">Support</a>
+                                <a class="link" href="#">Help</a>
+                            </nav>
+                    </div>
+                    <div class="four columns">
+                            <nav id="secondary" class="menu">
+                                <a class="link" href="#">About Us</a>
+                                <a class="link" href="#">Work with us</a>
+                                <a class="link" href="#">Blog</a>
+                            </nav>
+                    </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>
